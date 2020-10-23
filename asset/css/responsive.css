@@ -1,0 +1,269 @@
+/* XL (laptop) Device :1200px. */
+/*-- extra large Landscape --*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl{
+        max-width: 1140px !important;
+    } 
+    #footerComponent .toparea .footerAareaTop .leftLink ul li a {
+        font-size: 15px;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li {
+        margin-right: 20px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem h4 {
+        font-size: 15px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem ul li a {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    #footerComponent .footerMiddleLink .rightLinkItem h4 {
+        font-size: 15px;
+    }
+    #footerComponent .footerMiddleLink .rightLinkItem ul li a {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink ul li a {
+        font-size: 12px;
+    }
+    #footerComponent .copyrightArea .left p {
+        font-size: 13px;
+    }
+    #footerComponent .copyrightArea {
+        padding: 10px 0px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #footerComponent .toparea .footerAareaTop .leftLink ul li a {
+        font-size: 15px;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li {
+        margin-right: 15px;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul li {
+        margin-left: 26px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem h4 {
+        font-size: 15px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem ul li a {
+        font-size: 14px;
+    }
+    #footerComponent .footerMiddleLink .rightLinkItem h4 {
+        font-size: 15px;
+    }
+    #footerComponent .footerMiddleLink .rightLinkItem ul li a {
+        font-size: 14px;
+    }
+    #footerComponent .copyrightArea .left p {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink{
+        text-align: center !important;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink ul li a {
+        font-size: 14px;
+    }
+    
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #footerComponent .toparea {
+        padding: 17px 0px;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li a {
+        font-size: 12px;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li {
+        display: inline-block;
+        margin-right: 7px;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul li a {
+        height: 27px;
+        width: 27px;
+        line-height: 26px;
+        font-size: 11px;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul li {
+        margin-left: 7px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem h4 {
+        font-size: 15px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem ul li a {
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+    #footerComponent .footerMiddleLink .rightLinkItem h4 {
+        font-size: 15px;
+    }
+    #footerComponent .footerMiddleLink .rightLinkItem ul li a {
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+    #footerComponent .copyrightArea .left p {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink{
+        text-align: center !important;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink ul li a {
+        font-size: 14px;
+    }
+}
+
+/*-- tablate Landscape --*/
+@media (max-width: 767px) {}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    #footerComponent .toparea .footerAareaTop .leftLink {
+        text-align: center;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li a {
+        font-size: 13px;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li {
+        margin-right: 0px;
+        margin: 0px 6px;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial{
+        text-align: center !important;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul li {
+        margin-left: 0px;
+        margin: 0px 10px;
+        margin-top: 10px;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul li a {
+        height: 27px;
+        width: 27px;
+        line-height: 26px;
+        font-size: 11px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem{
+        margin-bottom: 20px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem h4 {
+        font-size: 15px;
+    }
+    #footerComponent .footerMiddleLink .leftLinItem ul li a {
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+    #footerComponent .footerMiddleLink .rightLinkItem h4 {
+        font-size: 15px;
+    }
+    #footerComponent .footerMiddleLink .rightLinkItem ul li a {
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+    #footerComponent .copyrightArea .left p {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink{
+        text-align: center !important;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink ul li a {
+        font-size: 14px;
+    }
+}
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+    .mpl0{
+        padding-left: 0px !important;
+    }
+    .mpr0{
+        padding-right: 0px !important;
+    }
+    .hide_mobile{
+        display: none !important;
+    }
+    .show_mobile{
+        display: block !important;
+    }
+    #footerComponent{
+        padding-bottom: 28px;
+        background-color: #F6F6F6;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink {
+        text-align: center;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li a {
+        font-size: 13px;
+    }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li {
+        margin-right: 0px;
+    }
+    #footerComponent .toparea {
+        padding: 21px 0px;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial{
+        text-align: center !important;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul li {
+        margin-left: 0px;
+        margin: 0px 10px;
+    }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul li a {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 11px;
+    }
+    #footerComponent .copyrightArea .left p {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink{
+        text-align: center !important;
+    }
+    #footerComponent .copyrightArea .rightCopyrightLink ul li a {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

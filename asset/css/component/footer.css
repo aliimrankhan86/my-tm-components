@@ -1,0 +1,133 @@
+.show_mobile {
+  display: none !important; }
+
+#footerComponent {
+  padding-bottom: 70px;
+  background: #F7F5F5; }
+  #footerComponent .toparea {
+    background: #fff;
+    padding: 25px 0px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2); }
+    #footerComponent .toparea .footerAareaTop .leftLink ul li {
+      display: inline-block;
+      margin-right: 30px; }
+      #footerComponent .toparea .footerAareaTop .leftLink ul li a {
+        font-family: tsr;
+        color: #00539F;
+        display: block; }
+        #footerComponent .toparea .footerAareaTop .leftLink ul li a:hover {
+          text-decoration: none;
+          color: #575252; }
+    #footerComponent .toparea .footerAareaTop .rightSocial ul li {
+      display: inline-block;
+      margin-left: 40px; }
+      #footerComponent .toparea .footerAareaTop .rightSocial ul li a {
+        height: 30px;
+        width: 30px;
+        background: #575252;
+        color: #fff;
+        display: block;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+        font-size: 13px; }
+        #footerComponent .toparea .footerAareaTop .rightSocial ul li a:hover {
+          transform: translateY(-3px);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); }
+  #footerComponent .footerMiddleLink {
+    padding: 30px 0px; }
+    #footerComponent .footerMiddleLink .leftLinItem h4 {
+      font-family: tsbold;
+      color: #2E6FAE;
+      font-size: 16px; }
+    #footerComponent .footerMiddleLink .leftLinItem ul {
+      margin-top: 15px; }
+      #footerComponent .footerMiddleLink .leftLinItem ul li {
+        display: block; }
+        #footerComponent .footerMiddleLink .leftLinItem ul li a {
+          font-family: tsr;
+          color: #00539F;
+          display: inline-block;
+          margin-bottom: 7px; }
+          #footerComponent .footerMiddleLink .leftLinItem ul li a:hover {
+            color: #575252; }
+    #footerComponent .footerMiddleLink .rightLinkContainer .rightLinkItem h4 {
+      font-family: tsbold;
+      color: #2E6FAE;
+      font-size: 16px; }
+    #footerComponent .footerMiddleLink .rightLinkContainer .rightLinkItem ul {
+      margin-top: 15px; }
+      #footerComponent .footerMiddleLink .rightLinkContainer .rightLinkItem ul li {
+        display: block; }
+        #footerComponent .footerMiddleLink .rightLinkContainer .rightLinkItem ul li a {
+          font-family: tsr;
+          color: #00539F;
+          display: inline-block;
+          margin-bottom: 7px; }
+          #footerComponent .footerMiddleLink .rightLinkContainer .rightLinkItem ul li a:hover {
+            color: #575252; }
+  #footerComponent .footerMiddleAreaMobile {
+    padding: 10px 0px;
+    overflow-x: hidden; }
+    #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 15px 10px 20px; }
+      #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-header {
+        background: transparent;
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        position: relative; }
+        #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-header:after {
+          font-family: "Font Awesome 5 Pro";
+          content: "\f107";
+          color: #ff7855;
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-size: 13px;
+          color: #00539F;
+          height: 20px;
+          width: 20px;
+          background-color: #fff;
+          text-align: center;
+          line-height: 20px;
+          border-radius: 50%; }
+        #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-header a {
+          font-family: tsbold;
+          text-decoration: none;
+          color: #232323;
+          display: block;
+          width: 100%;
+          font-size: 14px;
+          margin-bottom: 5px; }
+        #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-header a.copyrightTitle {
+          font-family: tsr;
+          font-size: 13px; }
+      #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-header.collapsed:after {
+        content: "\f106"; }
+      #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-body {
+        padding: 0px;
+        padding-top: 5px; }
+        #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-body ul li {
+          margin-bottom: 4px; }
+          #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-body ul li a {
+            font-family: tsr;
+            font-size: 14px; }
+            #footerComponent .footerMiddleAreaMobile #accordion .footerLinkItem .card-body ul li a i {
+              display: block;
+              float: right; }
+  #footerComponent .copyrightArea {
+    background: #fff;
+    padding: 14px 0px; }
+    #footerComponent .copyrightArea .left p {
+      font-family: tsr;
+      color: #848484;
+      font-size: 15px; }
+    #footerComponent .copyrightArea .rightCopyrightLink ul li {
+      display: inline-block; }
+      #footerComponent .copyrightArea .rightCopyrightLink ul li a {
+        font-family: tsr;
+        color: #00539F; }
+        #footerComponent .copyrightArea .rightCopyrightLink ul li a:hover {
+          color: #575252; }

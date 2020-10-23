@@ -1,0 +1,196 @@
+.show_mobile{
+    display: none !important;
+}
+#footerComponent{
+    padding-bottom: 70px;
+    background: #F7F5F5;
+    .toparea{
+        background: #fff;
+        padding: 25px 0px;
+        box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+        .footerAareaTop{
+            .leftLink{
+                ul{
+                    li{
+                        display: inline-block;
+                        margin-right: 30px;
+                        a{
+                            font-family: tsr;
+                            color: #00539F;
+                            display: block;
+                            &:hover{
+                                text-decoration: none;
+                                color: #575252;
+                            }
+                        }
+                    }
+                }
+            }
+            .rightSocial{
+                ul{
+                    li{
+                        display: inline-block;
+                        margin-left: 40px;
+                        a{
+                            height: 30px;
+                            width: 30px;
+                            background: #575252;
+                            color: #fff;
+                            display: block;
+                            text-align: center;
+                            line-height: 30px;
+                            border-radius: 50%;
+                            font-size: 13px;
+                            &:hover{
+                                transform: translateY(-3px);
+                                box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footerMiddleLink{
+        padding: 30px 0px;
+        .leftLinItem{
+            h4{
+                font-family: tsbold;
+                color: #2E6FAE;
+                font-size: 16px;
+            }
+            ul{
+               margin-top: 15px;
+                li{
+                   display: block;
+                    a{
+                        font-family: tsr;
+                        color: #00539F;
+                        display: inline-block;
+                        margin-bottom: 7px;
+                        &:hover{
+                            color: #575252;
+                        }
+                    }
+                } 
+            }
+        }
+        .rightLinkContainer{
+            .rightLinkItem{
+                h4{
+                    font-family: tsbold;
+                    color: #2E6FAE;
+                    font-size: 16px;
+                }
+                ul{
+                   margin-top: 15px;
+                    li{
+                       display: block;
+                        a{
+                            font-family: tsr;
+                            color: #00539F;
+                            display: inline-block;
+                            margin-bottom: 7px;
+                            &:hover{
+                                color: #575252;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+    }
+    .footerMiddleAreaMobile{
+        padding: 10px 0px;
+        overflow-x: hidden;
+        #accordion{
+            .footerLinkItem{
+                border-bottom: 1px solid #ddd;
+                padding: 10px 15px 10px 20px;
+                .card-header{
+                    background: transparent;
+                    border: none;
+                    border-radius: 0px;
+                    padding: 0px;
+                    position: relative;
+                    &:after{
+                        font-family: "Font Awesome 5 Pro";
+                        content: "\f107";
+                        color: #ff7855;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        font-size: 13px;
+                        color: #00539F;
+                        height: 20px;
+                        width: 20px;
+                        background-color: #fff;
+                        text-align: center;
+                        line-height: 20px;
+                        border-radius: 50%;
+                    }
+                    a{
+                        font-family: tsbold;
+                        text-decoration: none;
+                        color: #232323;
+                        display: block;
+                        width: 100%;
+                        font-size: 14px;
+                        margin-bottom: 5px;
+                    }
+                    a.copyrightTitle{
+                        font-family: tsr;
+                        font-size: 13px;
+                    }
+                }
+                .card-header.collapsed{
+                    &:after{
+                        content: "\f106";
+                    }
+                }
+                .card-body{
+                    padding: 0px;
+                    padding-top: 5px;
+                    ul{
+                        li{
+                            margin-bottom: 4px;
+                            a{
+                                font-family: tsr;
+                                font-size: 14px;
+                                i{
+                                    display: block;
+                                    float: right;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyrightArea{
+        background: #fff;
+        padding: 14px 0px;
+        .left{
+            p{
+                font-family: tsr;
+                color: #848484;
+                font-size: 15px;
+            }
+        }
+        .rightCopyrightLink{
+            ul{
+                li{
+                    display: inline-block;
+                    a{
+                        font-family: tsr;
+                        color: #00539F;
+                        &:hover{
+                            color: #575252;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
