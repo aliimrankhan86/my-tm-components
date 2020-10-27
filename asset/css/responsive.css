@@ -33,6 +33,21 @@
     #footerComponent .copyrightArea {
         padding: 10px 0px;
     }
+    #headerTop .middleLogo .menuarea {
+        margin-left: -27px;
+    }
+    #headerTop .middleLogo .menuarea ul li a {
+        font-size: 16px;
+    }
+    #headerTop .middleLogo .menuarea ul li {
+        margin-right: 3px;
+    }
+    #headerTop .middleLogo .rightMenuarea ul li input {
+        width: 323px;
+    }
+
+
+
 }
 
 @media (min-width: 1200px) and (max-width: 1300px) {}
@@ -71,6 +86,33 @@
     #footerComponent .copyrightArea .rightCopyrightLink ul li a {
         font-size: 14px;
     }
+    #headerTop .middleLogo .menuarea {
+        margin-left: -11px;
+    }
+    #headerTop .middleLogo .menuarea ul li a {
+        font-size: 14px;
+        padding: 0px 3px;
+    }
+    #headerTop .middleLogo .rightMenuarea ul li input {
+        width: 258px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li a {
+        font-size: 13px;
+    }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li {
+        margin-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
     
 }
 
@@ -120,6 +162,54 @@
     #footerComponent .copyrightArea .rightCopyrightLink ul li a {
         font-size: 14px;
     }
+    #headerTop .toparea .leftLink ul li a {
+        font-size: 14px;
+        padding: 7px 9px;
+    }
+    #headerTop .toparea .rightInfo a {
+        font-size: 15px;
+    }
+    #headerTop .toparea .rightInfo a img {
+        margin-left: 4px;
+        height: 16px;
+    }
+    #headerTop .middleLogo .menuarea {
+        margin-left: -19px;
+    }
+    #headerTop .middleLogo .menuarea ul li a {
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+    #headerTop .middleLogo .rightMenuarea{
+        text-align: left !important;
+        margin-top: 30px;
+        
+    }
+    #headerTop .middleLogo .rightMenuarea ul{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #headerTop .middleLogo .rightMenuarea ul .inputBoxsearch{
+        width: 100%;
+    }
+    #headerTop .middleLogo .rightMenuarea ul .inputBoxsearch input{
+        width: 100%;
+    }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li a {
+        font-size: 14px;
+    }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li {
+        margin-left: 8px;
+    }
+
+
+
+
+
+
+
+
 }
 
 /*-- tablate Landscape --*/
@@ -178,6 +268,22 @@
     }
     #footerComponent .copyrightArea .rightCopyrightLink ul li a {
         font-size: 14px;
+    }
+    .show_md{
+        display: block !important;
+    }
+    .hide_md{
+        display: none !important;
+    }
+    #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a i {
+        font-size: 19px;
+    }
+    #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a .fa-bars {
+        font-size: 15px;
+    }
+    #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a span {
+        margin-top: -4px;
+        font-size: 13px;
     }
 }
 

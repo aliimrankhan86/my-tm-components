@@ -1,2 +1,138 @@
-h1 {
-  color: red; }
+body {
+  background: #F9F9F9; }
+
+#headerTop {
+  background: #F9F9F9; }
+  #headerTop .toparea {
+    background: #EFEBEA; }
+    #headerTop .toparea .leftLink ul li {
+      display: inline-block; }
+      #headerTop .toparea .leftLink ul li a {
+        display: block;
+        font-family: tsr;
+        font-size: 15px;
+        color: #00539f;
+        text-decoration: none;
+        padding: 8px 12px; }
+        #headerTop .toparea .leftLink ul li a:hover {
+          background: #fff;
+          color: #7D7979; }
+    #headerTop .toparea .rightInfo a {
+      font-family: tsbold;
+      color: #00539f;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px; }
+      #headerTop .toparea .rightInfo a i {
+        margin-left: 4px; }
+      #headerTop .toparea .rightInfo a img {
+        margin-left: 7px; }
+  #headerTop .middleLogo {
+    padding: 15px 0px;
+    background: #F7F5F6; }
+    #headerTop .middleLogo .menuarea {
+      margin-left: -70px; }
+      #headerTop .middleLogo .menuarea ul {
+        position: relative;
+        top: 16px; }
+        #headerTop .middleLogo .menuarea ul li {
+          display: inline-block;
+          margin-right: 10px; }
+          #headerTop .middleLogo .menuarea ul li a {
+            font-family: tsbold;
+            color: #00539f;
+            font-size: 17px;
+            display: block;
+            padding: 0px 10px;
+            text-decoration: none;
+            position: relative; }
+            #headerTop .middleLogo .menuarea ul li a:after {
+              height: 3px;
+              width: 0%;
+              content: "";
+              bottom: -13px;
+              left: 0;
+              right: 0;
+              margin: auto;
+              transition: 0.4s;
+              position: absolute;
+              background: #3C8DC5; }
+            #headerTop .middleLogo .menuarea ul li a:hover:after {
+              width: 90%; }
+        #headerTop .middleLogo .menuarea ul .active a:after {
+          width: 90%; }
+    #headerTop .middleLogo .rightMenuarea ul li {
+      display: inline-block; }
+      #headerTop .middleLogo .rightMenuarea ul li input {
+        width: 400px;
+        background: #fff;
+        border: 1px solid rgba(51, 51, 51, 0.349);
+        padding: 9px 15px;
+        border-radius: 4px;
+        font-family: tsr; }
+      #headerTop .middleLogo .rightMenuarea ul li i {
+        color: #00539f;
+        font-size: 20px; }
+    #headerTop .middleLogo .rightMenuarea ul .searchBtn {
+      margin-left: 14px; }
+      #headerTop .middleLogo .rightMenuarea ul .searchBtn button {
+        height: 40px;
+        border: none;
+        background: transparent;
+        outline: none; }
+    #headerTop .middleLogo .rightMenuarea ul .cratrea {
+      margin-left: 18px; }
+  #headerTop .bottomInfoArea {
+    padding: 17px 0px;
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1); }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li {
+      display: inline-block;
+      margin-left: 24px; }
+      #headerTop .bottomInfoArea .bottomInfoLink ul li a {
+        font-family: tsr;
+        color: #A1A1A1;
+        font-size: 15px;
+        text-decoration: none; }
+        #headerTop .bottomInfoArea .bottomInfoLink ul li a:hover {
+          color: #00539f; }
+        #headerTop .bottomInfoArea .bottomInfoLink ul li a i {
+          margin-right: 4px; }
+
+#mobileheaderArea .topAreaLinkHeader {
+  background: #F7F5F6;
+  padding: 10px 0px; }
+  #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li {
+      display: inline-block; }
+      #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a {
+        display: block;
+        text-align: center;
+        font-family: tsr;
+        font-size: 12px;
+        color: #00539f;
+        text-decoration: none; }
+        #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a span {
+          margin-top: -4px;
+          display: block; }
+        #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a i {
+          font-size: 17px; }
+        #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a .fa-bars {
+          font-size: 13px; }
+
+#mobileheaderArea .mobileheaderInfoBottom {
+  padding: 13px 0px;
+  background: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1); }
+  #mobileheaderArea .mobileheaderInfoBottom .mobileheaderInfoBottomContent ul li {
+    display: inline-block; }
+    #mobileheaderArea .mobileheaderInfoBottom .mobileheaderInfoBottomContent ul li a {
+      font-family: tsr;
+      color: #A1A1A1;
+      font-size: 13px;
+      text-decoration: none; }
+      #mobileheaderArea .mobileheaderInfoBottom .mobileheaderInfoBottomContent ul li a i {
+        margin-right: 4px; }

@@ -6,3 +6,4 @@ node_modules
 *.json
 gulpfile.js
 temp.txt*
+footer.html
