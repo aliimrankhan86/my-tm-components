@@ -1,0 +1,175 @@
+/* XL (laptop) Device :1200px. */
+/*-- extra large Landscape --*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+
+    /*-- start header area responsive code --*/
+    #headerTop .middleLogo .menuarea {
+        margin-left: -27px;
+    }
+    #headerTop .middleLogo .menuarea ul li a {
+        font-size: 16px;
+    }
+    #headerTop .middleLogo .menuarea ul li {
+        margin-right: 3px;
+    }
+    #headerTop .middleLogo .rightMenuarea ul li input {
+        width: 323px;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    #headerTop .middleLogo .menuarea {
+        margin-left: -11px;
+    }
+    #headerTop .middleLogo .menuarea ul li a {
+        font-size: 14px;
+        padding: 0px 3px;
+    }
+    #headerTop .middleLogo .rightMenuarea ul li input {
+        width: 258px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li a {
+        font-size: 13px;
+    }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li {
+        margin-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
+    
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    #headerTop .toparea .leftLink ul li a {
+        font-size: 14px;
+        padding: 7px 9px;
+    }
+    #headerTop .toparea .rightInfo a {
+        font-size: 15px;
+    }
+    #headerTop .toparea .rightInfo a img {
+        margin-left: 4px;
+        height: 16px;
+    }
+    #headerTop .middleLogo .menuarea {
+        margin-left: -19px;
+    }
+    #headerTop .middleLogo .menuarea ul li a {
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+    #headerTop .middleLogo .rightMenuarea{
+        text-align: left !important;
+        margin-top: 30px;
+        
+    }
+    #headerTop .middleLogo .rightMenuarea ul{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #headerTop .middleLogo .rightMenuarea ul .inputBoxsearch{
+        width: 100%;
+    }
+    #headerTop .middleLogo .rightMenuarea ul .inputBoxsearch input{
+        width: 100%;
+    }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li a {
+        font-size: 14px;
+    }
+    #headerTop .bottomInfoArea .bottomInfoLink ul li {
+        margin-left: 8px;
+    }
+
+
+
+
+
+
+
+
+}
+
+/*-- tablate Landscape --*/
+@media (max-width: 767px) {}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+    .show_md{
+        display: block !important;
+    }
+    .hide_md{
+        display: none !important;
+    }
+    #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a i {
+        font-size: 19px;
+    }
+    #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a .fa-bars {
+        font-size: 15px;
+    }
+    #mobileheaderArea .topAreaLinkHeader .rightmenuarea ul li a span {
+        margin-top: -4px;
+        font-size: 13px;
+    }
+}
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+    .mpl0{
+        padding-left: 0px !important;
+    }
+    .mpr0{
+        padding-right: 0px !important;
+    }
+    .hide_mobile{
+        display: none !important;
+    }
+    .show_mobile{
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
